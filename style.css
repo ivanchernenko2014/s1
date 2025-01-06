@@ -1,0 +1,135 @@
+nav a{
+    text-decoration: none;
+    color:  black;
+    margin: 50px;
+    background-color: teal;
+    padding: 25px;
+    border-radius: inherit;
+    border: thick double #32a1ce;
+    font-size: 20px;
+    transition: 10s;
+    }
+    nav{
+    background-color: gold;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10% 30% 50% 70%;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    transition: 10s;
+    }
+    nav a:hover{
+    color: seagreen;
+    background-color: black;
+    border-top-right-radius: 250px 100px;
+    border-top-style: dotted;
+    transform: translateX(60px);
+transition: 5s;
+    }
+    nav:hover{
+    background-color: aquamarine;
+    border-width: 0 4px 8px 12px;
+    border-start-end-radius: 250px 100px;
+direction: rtl;
+transform: translateX(60px);
+transition: 5s;
+    }
+    h1{
+    background-color: aquamarine;
+    text-align: center;
+    color: blue;
+    border-radius: 10% / 50%;
+    border-width:  4px 1.25em;
+    margin: 30px;
+    padding: 20px;
+    transition: 10s;
+    }
+    h1 img{
+    padding: 25px;
+    background-color: black;
+    border-top-left-radius: 250px 100px;
+    border-style: dashed double none;
+    transition: 10s;
+    }
+    h1:hover{
+    color: grey;
+    background-color: goldenrod;
+    border-style: dashed groove none dotted;
+    border-top-right-radius: 50%;
+border: black 10px double;
+background-clip: content-box;
+transform: translateX(60px);
+transition: 5s;
+    }
+    h1 img:hover{
+    background-color:yellowgreen;
+    border-style: dashed solid;
+    transform: translateX(60px);
+transition: 5s;
+    }
+    .qwerty{
+    color: grey;
+    background-color: blue;
+    }
+    footer{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    border: 4px inset aquamarine;
+    }
+    footer p{
+    text-align: center;
+    background-color: yellow;
+    color: yellowgreen;
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    }
+    body{
+    background-color: blueviolet;
+    }
+    header{
+    background-color: black;
+    padding: 20px;
+    border-radius: 17px;
+    border-width: 0 4px 8px 12px;
+    }
+    main{
+    background-color: blanchedalmond;
+    padding: 2px;
+    border-radius: 20px;
+    }
+    main p{
+    background-color: aqua;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    }
+    main a{
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+    }
+    h2{
+    background-color: aquamarine;
+    text-align: center;
+    color: blue;
+    border-radius: 10% / 50%;
+    border-width:  4px 1.25em;
+    margin: 30px;
+    padding: 20px;
+    transition: 10s;
+    }
+    h2:hover{
+    color: grey;
+    background-color: goldenrod;
+    border-style: dashed groove none dotted;
+    border-top-right-radius: 50%;
+border: black 10px double;
+background-clip: content-box;
+transform: translateX(60px);
+transition: 5s;
+    }
+
